@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		F6685F5420A6FCAD0052F8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F5320A6FCAD0052F8EB /* AppDelegate.swift */; };
-		F6685F5620A6FCAD0052F8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F5520A6FCAD0052F8EB /* ViewController.swift */; };
 		F6685F5920A6FCAD0052F8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6685F5720A6FCAD0052F8EB /* Main.storyboard */; };
 		F6685F5B20A6FCAE0052F8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6685F5A20A6FCAE0052F8EB /* Assets.xcassets */; };
 		F6685F5E20A6FCAE0052F8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6685F5C20A6FCAE0052F8EB /* LaunchScreen.storyboard */; };
+		F6685F7F20A6FE7A0052F8EB /* CLOBaseLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6720A6FE7A0052F8EB /* CLOBaseLineView.swift */; };
+		F6685F8020A6FE7A0052F8EB /* CLOCollageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6820A6FE7A0052F8EB /* CLOCollageCell.swift */; };
+		F6685F8120A6FE7A0052F8EB /* CLOCollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6A20A6FE7A0052F8EB /* CLOCollageView.swift */; };
+		F6685F8220A6FE7A0052F8EB /* CLOCollageViewT301.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6B20A6FE7A0052F8EB /* CLOCollageViewT301.swift */; };
+		F6685F8320A6FE7A0052F8EB /* CLOCollageViewT401.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6C20A6FE7A0052F8EB /* CLOCollageViewT401.swift */; };
+		F6685F8420A6FE7A0052F8EB /* CLOCollageViewT402.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6D20A6FE7A0052F8EB /* CLOCollageViewT402.swift */; };
+		F6685F8520A6FE7A0052F8EB /* CLOLineHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6E20A6FE7A0052F8EB /* CLOLineHandleView.swift */; };
+		F6685F8620A6FE7A0052F8EB /* CLOPhotoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F6F20A6FE7A0052F8EB /* CLOPhotoScrollView.swift */; };
+		F6685F8720A6FE7A0052F8EB /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F7120A6FE7A0052F8EB /* PickerViewCell.swift */; };
+		F6685F8820A6FE7A0052F8EB /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6685F7520A6FE7A0052F8EB /* SwipeView.m */; };
+		F6685F8920A6FE7A0052F8EB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F7820A6FE7A0052F8EB /* Utils.swift */; };
+		F6685F8A20A6FE7A0052F8EB /* CloPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F7A20A6FE7A0052F8EB /* CloPickerViewController.swift */; };
+		F6685F8B20A6FE7A0052F8EB /* CollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F7B20A6FE7A0052F8EB /* CollageViewController.swift */; };
+		F6685F8D20A6FE7A0052F8EB /* CLOCollageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6685F7E20A6FE7A0052F8EB /* CLOCollageTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6685F5020A6FCAD0052F8EB /* CLOCollageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLOCollageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6685F5320A6FCAD0052F8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6685F5520A6FCAD0052F8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6685F5820A6FCAD0052F8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6685F5A20A6FCAE0052F8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6685F5D20A6FCAE0052F8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6685F5F20A6FCAE0052F8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6685F6720A6FE7A0052F8EB /* CLOBaseLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOBaseLineView.swift; sourceTree = "<group>"; };
+		F6685F6820A6FE7A0052F8EB /* CLOCollageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOCollageCell.swift; sourceTree = "<group>"; };
+		F6685F6A20A6FE7A0052F8EB /* CLOCollageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOCollageView.swift; sourceTree = "<group>"; };
+		F6685F6B20A6FE7A0052F8EB /* CLOCollageViewT301.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOCollageViewT301.swift; sourceTree = "<group>"; };
+		F6685F6C20A6FE7A0052F8EB /* CLOCollageViewT401.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOCollageViewT401.swift; sourceTree = "<group>"; };
+		F6685F6D20A6FE7A0052F8EB /* CLOCollageViewT402.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOCollageViewT402.swift; sourceTree = "<group>"; };
+		F6685F6E20A6FE7A0052F8EB /* CLOLineHandleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOLineHandleView.swift; sourceTree = "<group>"; };
+		F6685F6F20A6FE7A0052F8EB /* CLOPhotoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOPhotoScrollView.swift; sourceTree = "<group>"; };
+		F6685F7120A6FE7A0052F8EB /* PickerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewCell.swift; sourceTree = "<group>"; };
+		F6685F7420A6FE7A0052F8EB /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		F6685F7520A6FE7A0052F8EB /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		F6685F7720A6FE7A0052F8EB /* CLOCollageView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLOCollageView-Bridging-Header.h"; sourceTree = "<group>"; };
+		F6685F7820A6FE7A0052F8EB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F6685F7A20A6FE7A0052F8EB /* CloPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloPickerViewController.swift; sourceTree = "<group>"; };
+		F6685F7B20A6FE7A0052F8EB /* CollageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollageViewController.swift; sourceTree = "<group>"; };
+		F6685F7E20A6FE7A0052F8EB /* CLOCollageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLOCollageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,101 @@
 		F6685F5220A6FCAD0052F8EB /* CLOCollageView */ = {
 			isa = PBXGroup;
 			children = (
+				F6685F7920A6FE7A0052F8EB /* Controllers */,
+				F6685F7620A6FE7A0052F8EB /* Supportings */,
+				F6685F7D20A6FE7A0052F8EB /* Transitions */,
+				F6685F6520A6FE7A0052F8EB /* Views */,
 				F6685F5320A6FCAD0052F8EB /* AppDelegate.swift */,
-				F6685F5520A6FCAD0052F8EB /* ViewController.swift */,
 				F6685F5720A6FCAD0052F8EB /* Main.storyboard */,
-				F6685F5A20A6FCAE0052F8EB /* Assets.xcassets */,
 				F6685F5C20A6FCAE0052F8EB /* LaunchScreen.storyboard */,
+				F6685F5A20A6FCAE0052F8EB /* Assets.xcassets */,
 				F6685F5F20A6FCAE0052F8EB /* Info.plist */,
 			);
 			path = CLOCollageView;
+			sourceTree = "<group>";
+		};
+		F6685F6520A6FE7A0052F8EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F6620A6FE7A0052F8EB /* CLOCollageView */,
+				F6685F7020A6FE7A0052F8EB /* CLOPhotoPickerView */,
+				F6685F7220A6FE7A0052F8EB /* CLOScrollView */,
+				F6685F7320A6FE7A0052F8EB /* SwipeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6685F6620A6FE7A0052F8EB /* CLOCollageView */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F6720A6FE7A0052F8EB /* CLOBaseLineView.swift */,
+				F6685F6820A6FE7A0052F8EB /* CLOCollageCell.swift */,
+				F6685F6920A6FE7A0052F8EB /* CLOCollageViewTypes */,
+				F6685F6E20A6FE7A0052F8EB /* CLOLineHandleView.swift */,
+				F6685F6F20A6FE7A0052F8EB /* CLOPhotoScrollView.swift */,
+			);
+			path = CLOCollageView;
+			sourceTree = "<group>";
+		};
+		F6685F6920A6FE7A0052F8EB /* CLOCollageViewTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F6A20A6FE7A0052F8EB /* CLOCollageView.swift */,
+				F6685F6B20A6FE7A0052F8EB /* CLOCollageViewT301.swift */,
+				F6685F6C20A6FE7A0052F8EB /* CLOCollageViewT401.swift */,
+				F6685F6D20A6FE7A0052F8EB /* CLOCollageViewT402.swift */,
+			);
+			path = CLOCollageViewTypes;
+			sourceTree = "<group>";
+		};
+		F6685F7020A6FE7A0052F8EB /* CLOPhotoPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F7120A6FE7A0052F8EB /* PickerViewCell.swift */,
+			);
+			path = CLOPhotoPickerView;
+			sourceTree = "<group>";
+		};
+		F6685F7220A6FE7A0052F8EB /* CLOScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CLOScrollView;
+			sourceTree = "<group>";
+		};
+		F6685F7320A6FE7A0052F8EB /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F7420A6FE7A0052F8EB /* SwipeView.h */,
+				F6685F7520A6FE7A0052F8EB /* SwipeView.m */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+		F6685F7620A6FE7A0052F8EB /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F7720A6FE7A0052F8EB /* CLOCollageView-Bridging-Header.h */,
+				F6685F7820A6FE7A0052F8EB /* Utils.swift */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		F6685F7920A6FE7A0052F8EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F7A20A6FE7A0052F8EB /* CloPickerViewController.swift */,
+				F6685F7B20A6FE7A0052F8EB /* CollageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6685F7D20A6FE7A0052F8EB /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				F6685F7E20A6FE7A0052F8EB /* CLOCollageTransition.swift */,
+			);
+			path = Transitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +250,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6685F5620A6FCAD0052F8EB /* ViewController.swift in Sources */,
+				F6685F7F20A6FE7A0052F8EB /* CLOBaseLineView.swift in Sources */,
+				F6685F8820A6FE7A0052F8EB /* SwipeView.m in Sources */,
 				F6685F5420A6FCAD0052F8EB /* AppDelegate.swift in Sources */,
+				F6685F8620A6FE7A0052F8EB /* CLOPhotoScrollView.swift in Sources */,
+				F6685F8D20A6FE7A0052F8EB /* CLOCollageTransition.swift in Sources */,
+				F6685F8320A6FE7A0052F8EB /* CLOCollageViewT401.swift in Sources */,
+				F6685F8420A6FE7A0052F8EB /* CLOCollageViewT402.swift in Sources */,
+				F6685F8A20A6FE7A0052F8EB /* CloPickerViewController.swift in Sources */,
+				F6685F8220A6FE7A0052F8EB /* CLOCollageViewT301.swift in Sources */,
+				F6685F8720A6FE7A0052F8EB /* PickerViewCell.swift in Sources */,
+				F6685F8020A6FE7A0052F8EB /* CLOCollageCell.swift in Sources */,
+				F6685F8120A6FE7A0052F8EB /* CLOCollageView.swift in Sources */,
+				F6685F8520A6FE7A0052F8EB /* CLOLineHandleView.swift in Sources */,
+				F6685F8B20A6FE7A0052F8EB /* CollageViewController.swift in Sources */,
+				F6685F8920A6FE7A0052F8EB /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +417,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.namssan.CLOCollageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CLOCollageView/Supportings/CLOCollageView-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.namssan.CLOCollageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CLOCollageView/Supportings/CLOCollageView-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
