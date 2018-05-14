@@ -1,1 +1,3 @@
-# CloCollage
+# CloCollageView
+
+the collageview that 
